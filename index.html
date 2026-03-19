@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora com Callback</title>
+</head>
+
+<body>
+
+    <h2>Calculadora com Callback</h2>
+
+    <input type="number" id="num1" placeholder="Número 1">
+    <input type="number" id="num2" placeholder="Número 2">
+
+    <br><br>
+
+    <button onclick="usarOperacao(somar)">Somar</button>
+    <button onclick="usarOperacao(subtrair)">Subtrair</button>
+    <button onclick="usarOperacao(multiplicar)">Multiplicar</button>
+    <button onclick="usarOperacao(dividir)">Dividir</button>
+
+    <br><br>
+
+    <button onclick="limpar()">Limpar</button>
+
+    <h3>Resultado: <span id="resultado">0</span></h3>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
